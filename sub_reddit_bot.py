@@ -63,8 +63,8 @@ def duplicate_check(post_id):
 def create_tweet(subreddit):
 	print('[bot] setting up connection with Reddit')
 	#connect to reddit using praw
-	r = praw.Reddit(client_id='_3u27ZQbaZ1NbQ',
-					 client_secret='BsvPsbn98_18xzxPmt065WBOPE8',
+	r = praw.Reddit(client_id='YOUR REDDDIT ID',
+					 client_secret='YOUR REDDDIT ID',
 					 user_agent='bot by /u/scarebaer')  	
 	#create lists for relevant info, ids used for text for dupes
 	post_titles = []
